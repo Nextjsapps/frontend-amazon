@@ -8,7 +8,7 @@ import { IProduct } from '@/lib/db/models/product.model'
 import Rating from './rating'
 import { formatNumber } from '@/lib/utils'
 import ProductPrice from './product-price'
-import ImageHover from '@/public/components/shared/product/image-hover'
+import ImageHover from '@/components/shared/product/image-hover'
 
 const ProductCard = ({
   product,
