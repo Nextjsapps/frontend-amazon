@@ -7,3 +7,7 @@ export const APP_DESCRIPTION =
 
   export const PAGE_SIZE = Number(process.env.PAGE_SIZE || 9)
   
+  // free shipping, IF free shipping is not defined than it will be 35
+  export const FREE_SHIPPING_MIN_PRICE = Number(
+    process.env.FREE_SHIPPING_MIN_PRICE || 35
+  )
